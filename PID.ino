@@ -1,20 +1,6 @@
  #include <LiquidCrystal.h>
  #include <PID_v1.h>
-// initialize the library with the numbers of the interface pins
-//    LiquidCrystal lcd(RS, enable, d4, d5, d6, d7); //
-//
-// The parameters to this initialisation function are the pins on 
-// the Arduino board that are connected to the pins on the LCD Module, 
-// i.e., the pins on the right column in the table above.
-//
-// The first parameter is the “RS” — which, literally, means 
-//      “Register Select”, and which is used to tell the
-//       module if “that which comes over the bus (the set of data pins)
-//       corresponds to “data to print” or “control instructions”
-//
-// The second parameter is “Enable Signal"
-//       the remaining parameters are the 4 digital pins forming the bus.
-//
+
 LiquidCrystal lcd(8, 9, 4, 5, 6, 7);
 
 int ora0=0,ora1=14,min0=5,min1=9,sec0=5,sec1=0;
